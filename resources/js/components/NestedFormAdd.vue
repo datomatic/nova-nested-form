@@ -1,11 +1,12 @@
 <template>
+  <div class="cursor-pointer"
+       @click="addChild">
   <Icon
     type="plus-circle"
-    class="cursor-pointer"
     v-if="field.max === 0 || field.children.length < field.max"
     hover-color="success"
-    @click="addChild"
-  />
+  />  {{__('Add')}}
+  </div>
 </template>
 
 <script>

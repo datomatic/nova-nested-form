@@ -12,7 +12,7 @@
     </help-text>
 
     <template v-if="shouldDisplay()">
-      <div class="p-1 flex items-center justify-center w-100 add-form">
+      <div class="p-4 flex items-center justify-center w-100 add-form">
         <nested-form-add :field="field" />
       </div>
 
