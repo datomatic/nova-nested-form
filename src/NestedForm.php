@@ -1,6 +1,6 @@
 <?php
 
-namespace Handleglobal\NestedForm;
+namespace Datomatic\NestedForm;
 
 use function GuzzleHttp\json_encode;
 use Illuminate\Support\Str;

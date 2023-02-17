@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/handleglobal/nova-nested-form/v/stable)](https://packagist.org/packages/handleglobal/nova-nested-form) [![Total Downloads](https://poser.pugx.org/handleglobal/nova-nested-form/downloads)](https://packagist.org/packages/handleglobal/nova-nested-form) [![Latest Unstable Version](https://poser.pugx.org/handleglobal/nova-nested-form/v/unstable)](https://packagist.org/packages/handleglobal/nova-nested-form) [![License](https://poser.pugx.org/handleglobal/nova-nested-form/license)](https://packagist.org/packages/handleglobal/nova-nested-form) [![Monthly Downloads](https://poser.pugx.org/handleglobal/nova-nested-form/d/monthly)](https://packagist.org/packages/handleglobal/nova-nested-form) [![Daily Downloads](https://poser.pugx.org/handleglobal/nova-nested-form/d/daily)](https://packagist.org/packages/handleglobal/nova-nested-form)
+[![Latest Stable Version](https://poser.pugx.org/datomatic/nova-nested-form/v/stable)](https://packagist.org/packages/datomatic/nova-nested-form) [![Total Downloads](https://poser.pugx.org/datomatic/nova-nested-form/downloads)](https://packagist.org/packages/datomatic/nova-nested-form) [![Latest Unstable Version](https://poser.pugx.org/datomatic/nova-nested-form/v/unstable)](https://packagist.org/packages/datomatic/nova-nested-form) [![License](https://poser.pugx.org/datomatic/nova-nested-form/license)](https://packagist.org/packages/datomatic/nova-nested-form) [![Monthly Downloads](https://poser.pugx.org/datomatic/nova-nested-form/d/monthly)](https://packagist.org/packages/datomatic/nova-nested-form) [![Daily Downloads](https://poser.pugx.org/datomatic/nova-nested-form/d/daily)](https://packagist.org/packages/datomatic/nova-nested-form)
 
 # Nova Nested Form
 
@@ -10,14 +10,14 @@ Add package to your composer with git reference
 ```
 "repositories": [
         {
-            "url": "https://github.com/handleglobal/laravel-nova-nested-form.git",
+            "url": "https://github.com/datomatic/laravel-nova-nested-form.git",
             "type": "git"
         }
 ]
 ```
 
 ```bash
-composer require handleglobal/nova-nested-form:dev-master
+composer require datomatic/nova-nested-form:dev-master
 ```
 
 # Contributions
@@ -37,7 +37,7 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\Password;
 // Add use statement here.
-use Handleglobal\NestedForm\NestedForm;
+use Datomatic\NestedForm\NestedForm;
 
 class User extends Resource
 {

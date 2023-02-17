@@ -12,6 +12,6 @@ mix
     .alias({
         '@': path.join(__dirname, 'vendor/laravel/nova/resources/js')
     })
-    .nova("handleglobal/nova-nested-form");
+    .nova("datomatic/nova-nested-form");
 
 module.exports = {};

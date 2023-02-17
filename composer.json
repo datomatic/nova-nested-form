@@ -1,5 +1,5 @@
 {
-    "name": "handleglobal/nova-nested-form",
+    "name": "datomatic/nova-nested-form",
     "description": "A Laravel Nova package that allows you to create/update/delete nested related fields from a parent form.",
     "keywords": [
         "laravel",
@@ -9,23 +9,17 @@
         "relationship",
         "form"
     ],
-    "homepage": "https://handleglobal.com",
+    "homepage": "https://datomatic.io",
     "support": {
-        "email": "buch@procoders.tech",
-        "issues": "https://github.com/handleglobal/laravel-nova-nested-form/issues",
-        "source": "https://github.com/handleglobal/laravel-nova-nested-form",
-        "docs": "https://github.com/handleglobal/laravel-nova-nested-form#readme"
+        "issues": "https://github.com/datomatic/laravel-nova-nested-form/issues",
+        "source": "https://github.com/datomatic/laravel-nova-nested-form",
+        "docs": "https://github.com/datomatic/laravel-nova-nested-form#readme"
     },
     "authors": [
         {
-            "name": "Dmitry Buchkovsky",
-            "homepage": "https://procoders.tech",
-            "email": "buch@procoders.tech"
-        },
-        {
-            "name": "Ardit Qerosi",
-            "homepage": "https://procoders.tech",
-            "email": "qerosi@provCerstka.tech"
+            "name": "Alberto Peripolli",
+            "homepage": "https://datomatic.io",
+            "email": "alberto@datomatic.io"
         }
     ],
     "license": "MIT",
@@ -41,13 +35,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Handleglobal\\NestedForm\\": "src/"
+            "Datomatic\\NestedForm\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Handleglobal\\NestedForm\\FieldServiceProvider"
+                "Datomatic\\NestedForm\\FieldServiceProvider"
             ]
         }
     },
