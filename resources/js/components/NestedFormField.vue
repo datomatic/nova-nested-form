@@ -19,7 +19,6 @@
                     :key="child.id || child.key"
                     :class="{ 'overflow-hidden': field.panel && !index, blah: true }"
                     class="rounded-lg bg-white dark:bg-gray-800 mb-4"
-                    v-bind:style="getStyle(childIndex)"
                 >
                     <div class="flex gap-1 items-center w-full">
                         <nested-form-header
