@@ -69,7 +69,7 @@
             </div>
 
 
-            <div class="p-4 flex items-center justify-center w-100 add-form rounded-lg bg-white dark:bg-gray-800">
+            <div class="p-4 flex items-center justify-center w-100 add-form rounded-lg bg-white dark:bg-gray-800 shadow">
                 <nested-form-add :field="field"/>
             </div>
 
