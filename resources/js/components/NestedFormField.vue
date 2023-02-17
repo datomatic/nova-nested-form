@@ -1,6 +1,7 @@
 <template>
     <div
         class="relative bg-gray-100 dark:bg-gray-900"
+        style="outline: 5px solid rgba(var(--colors-gray-100));"
         v-bind:class="
       shouldDisplay()
         ? 'nova-nested-form-with-content'
