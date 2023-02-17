@@ -28,7 +28,7 @@
                             :style="{ width: '97%' }"
                         />
                         <div class="cursor-pointer" @click="child.opened = !child.opened">
-                            <div class="opener p-4 mt-1">
+                            <div class="opener p-4">
                                 <Icon
                                     class="cursor-pointer"
                                     :type="child.opened ? 'chevron-up' : 'chevron-down'"
