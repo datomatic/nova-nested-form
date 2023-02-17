@@ -6,23 +6,9 @@ This package allows you to include your nested relationships' forms into a paren
 
 # Installation
 
-Add package to your composer with git reference
-```
-"repositories": [
-        {
-            "url": "https://github.com/datomatic/laravel-nova-nested-form.git",
-            "type": "git"
-        }
-]
-```
-
 ```bash
-composer require datomatic/nova-nested-form:dev-master
+composer require datomatic/nova-nested-form
 ```
-
-# Contributions
-
-As I did not anticipate so many people would use that package (which is awesome) and simply do not have enough time to update/enhance this package more regularly on my own, I am looking for other contributors to help me with the maintenance and feature requests. Don't hesitate to contact me if you're interested!  
 
 # Attach a new relationship form to a resource
 
