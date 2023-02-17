@@ -1,10 +1,11 @@
-.opener {
-  position: relative;
-  top: -7px;
+.outline-gray-100 {
+  outline-color: #f3f4f6;
 }
 
-.add-form:not(.add-form ~ .add-form) {
-  position: sticky;
-  top: 0;
-  z-index: 100;
+.dark .dark\:bg-outline-0 {
+  outline-width: 0px;
+}
+
+.outline-4 {
+  outline-width: 4px;
 }
