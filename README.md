@@ -7,7 +7,7 @@ This package allows you to include your nested relationships' forms into a paren
 # Installation
 
 ```bash
-composer require datomatic/nova-nested-form
+composer require datomatic/laravel-nova-nested-form
 ```
 
 # Attach a new relationship form to a resource
