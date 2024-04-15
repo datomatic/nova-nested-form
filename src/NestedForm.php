@@ -525,12 +525,11 @@ class NestedForm extends Field implements RelatableField
         $createRequest = CreateResourceRequest::createFrom($request->replace([
             'viaResource' => $this->viaResource,
             'viaResourceId' => $model->getKey(),
-            'viaRelationship' => $this->viaRelationship
+            'viaRelationship' => $this->viaRelationship,
+            'files' => collect($request->file($requestAttribute . '.' . $index))
         ])->merge($child)->merge(collect($relatedKeys)->map(function ($value) use ($model) {
             return $value === self::ID ? $model->getKey() : $value;
         })->toArray()));
-
-        $createRequest->files = collect($request->file($requestAttribute . '.' . $index));
 
         return $createRequest;
     }
