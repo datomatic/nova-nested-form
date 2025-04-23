@@ -205,6 +205,7 @@ class NestedForm extends Field implements RelatableField
     public function relationshipName()
     {
 //        return $this->viaRelationship;
+        return '';
     }
 
     /**
@@ -215,6 +216,7 @@ class NestedForm extends Field implements RelatableField
     public function relationshipType()
     {
 //        return $this->getRelationshipType();
+        return '';
     }
 
     /**
@@ -225,7 +227,7 @@ class NestedForm extends Field implements RelatableField
      *
      * @return void
      */
-    public function resolve($resource, $attribute = null)
+    public function resolve($resource, ?string $attribute = null):void
     {
         $this->withMeta([
             'children' => $this->children($resource),
