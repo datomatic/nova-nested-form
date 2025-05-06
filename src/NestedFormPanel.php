@@ -26,7 +26,10 @@ class NestedFormPanel extends Panel
     }
 
     /**
-     * Getter.
+     * Get the value for a given offset.
+     *
+     * @param  string  $offset
+     * @return mixed
      */
     public function __get($key): mixed
     {
