@@ -28,7 +28,7 @@ class NestedFormPanel extends Panel
     /**
      * Getter.
      */
-    public function __get($key)
+    public function __get($key): mixed
     {
         return property_exists($this, $key) ? parent::__get($key) : $this->nestedForm->$key;
     }
